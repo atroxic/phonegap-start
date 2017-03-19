@@ -30,7 +30,7 @@ input, textarea {
 }
 
 input.invalid, textarea.invalid {
-    background: url(exclamation.png) no-repeat 2px 2px;
+    background: url(../img/exclamation.png) no-repeat 2px 2px;
     padding-left: 22px;
 }
 

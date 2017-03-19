@@ -51,7 +51,8 @@ $(document).ready(function() {
         },
         showErrors: function(errorMap, errorList) {
             // initialise an empty errors map
-            errors = {};
+            errors = {
+		    };
             
             // iterate through the jQuery validation error map, and convert to 
             // something we can use
