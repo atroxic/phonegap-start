@@ -22,16 +22,20 @@ $(document).ready(function() {
         } // if..else
     } // displayItems
     
-
     $("#add").click(function() {
-
-        // Add your code here
+	items.push({
+		title: $("#newtitle").val(),
+		created: new Date().getTime()
+	});
+	PROWEBAPPS.Storage.set("listitems", items);
+	displayItems();
     });
     
     $("#clear").click(function() {
 
-        // Add your code here
+	items = null;
+	PROWEBAPPS.Storage.remove("listitems");
+	displayItems();
     });
-    
     displayItems();
 });
