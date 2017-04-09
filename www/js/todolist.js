@@ -41,7 +41,7 @@ TODOLIST = (function() {
                 "<div class='task-header'>" + currentTasks[ii].name + "</div>" + 
                 "<div class='task-details'>" + 
                     currentTasks[ii].description + "<br />" +
-                    "<a href='#' class='task-complete right'>COMPLETE TASK</a>&nbsp;" + 
+                    "<a href='#' class='task-complete right'><span style='color:yellow'>Complete Task</span></a>&nbsp;" + 
                 "</div>" +
                 "</li>";
         } // for

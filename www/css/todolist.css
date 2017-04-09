@@ -1,9 +1,7 @@
 body {
     margin: 0px;
-    margin-top: 20px;
     min-height: 480px;
     font-family: Arial;
-    background-color: #CCC;
 }
 
 form ul {
@@ -128,7 +126,6 @@ ul.task-actions li.right {
     padding: 4px 0 0 0;
 }
 
-
 /* all tasks display (chapter 04) */
 
 ul#tasklist {
@@ -165,10 +162,6 @@ ul#tasklist .task-details a {
     text-decoration: none;
     font: bold 0.8em Arial;
     margin: 6px 0 0 0;
-}
-
-ul#tasklist a.task-complete {
-    color: yellow;
 }
 
 /* calendar list formatter (chapter 04) */
