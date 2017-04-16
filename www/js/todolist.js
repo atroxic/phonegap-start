@@ -380,4 +380,8 @@ $(document).ready(function() {
 
     // initialise the main view
     PROWEBAPPS.ViewManager.activate("main");
+    
+    //activate the scroller
+    // Add your code here
+    
 });
