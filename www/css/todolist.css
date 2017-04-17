@@ -192,6 +192,6 @@ ul.calendar li.day {
     position: relative;
     z-index: 1;
     width: 100%;
-    min-height: 300px;
+    /* min-height: 300px; */
     overflow: scroll;
 }
