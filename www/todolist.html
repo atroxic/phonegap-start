@@ -9,9 +9,17 @@
     <script type="text/javascript" src="js/prowebapps.js"></script>
 	<script type="text/javascript" src="js/todolist.js"></script>
 	<script type="text/javascript" src="js/iscroll.js"></script>
+	<script type="text/javascript">
+		function loaded() {
+			document.addEventListener('touchmove', function(e){ e.preventDefault(); });
+			myScroll = new iScroll('scroller');
+		}
+		document.addEventListener('DOMContentLoaded', loaded);
+	</script>
 </head>
-<body>
-	<div class="wrapper">
+<body> 
+	<div id="wrapper">
+	<div id="scroller">
 	<ul id="menu">
 	</ul>
 	<div id="main" class="view">
@@ -53,8 +61,6 @@
 	    </form>
 	</div>
 	</div>
-	<script>
-		var myScroll = new IScroll(".wrapper");
-	</script>
+	</div>
 </body>
 </html>

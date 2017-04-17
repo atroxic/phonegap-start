@@ -10,7 +10,9 @@
  * Version 3.7.1 - Last updated: 2010.10.08
  * 
  */
-
+(function() {
+	alert("iScroll.js loaded");
+})();
 (function(){
 function iScroll (el, options) {
 	var that = this, i;
